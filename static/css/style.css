@@ -1,3 +1,18 @@
+img {
+    height: 150px;
+}
+
+#main_title {
+    text-align: center;
+    padding: 5%;
+}
+
+nav {
+    background-color: yellow margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
 nav ul {
     list-style-type: none;
     margin-top: 3%;
@@ -17,9 +32,7 @@ nav ul li a {
     text-decoration: none;
     background-color: rgb(37, 119, 201);
     color: white;
-    display: block;
-    float: left;
-    display: block;
+    display: inline-block;
 }
 
 nav ul li a.home {
@@ -52,16 +65,6 @@ nav ul li a:focus {
     margin-bottom: 5%;
 }
 
-#main_title {
-    text-align: center;
-    padding: 5%;
-    display: block;
-}
-
-img {
-    height: 150px;
-}
-
 #gallary {
     margin-bottom: 10%;
     margin-left: auto;
@@ -75,4 +78,5 @@ img {
     max-width: 30%;
     display: inline-block;
     padding: 3px;
+    align-content: center;
 }
